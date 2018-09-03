@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"project-go/fundamentos/erro/model"
+
+	"github.com/vinipis/aulas-jeff-go/fundamentos/mapas/model"
 )
 
 var cache map[string]model.Imovel

@@ -3,7 +3,8 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"fundamentos/structs_avancado/model"
+
+	"github.com/vinipis/aulas-jeff-go/fundamentos/structs_avancado/model"
 )
 
 func main() {
