@@ -3,10 +3,11 @@ package manipulador
 import (
 	"fmt"
 	"net/http"
-	"project-go/avancado/conexao_bd_sql/model"
-	"project-go/avancado/conexao_bd_sql/repo"
 	"strconv"
 	"time"
+
+	"github.com/vinipis/aulas-jeff-go/avancado/conexao_bd_sql/model"
+	"github.com/vinipis/aulas-jeff-go/avancado/conexao_bd_sql/repo"
 )
 
 //Local é o manipilador de rota para a página

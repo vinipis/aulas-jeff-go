@@ -3,8 +3,9 @@ package manipulador
 import (
 	"fmt"
 	"net/http"
-	"project-go/avancado/conexao_bd_sql/model"
 	"time"
+
+	"github.com/vinipis/aulas-jeff-go/avancado/conexao_bd_sql/model"
 )
 
 //Ola é o manipulador da requisição a rota /ola

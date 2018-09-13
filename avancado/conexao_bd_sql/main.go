@@ -3,8 +3,9 @@ package main
 import (
 	"fmt"
 	"net/http"
-	"project-go/avancado/conexao_bd_sql/manipulador"
-	"project-go/avancado/conexao_bd_sql/repo"
+
+	"github.com/vinipis/aulas-jeff-go/avancado/conexao_bd_sql/manipulador"
+	"github.com/vinipis/aulas-jeff-go/avancado/conexao_bd_sql/repo"
 )
 
 func init() {

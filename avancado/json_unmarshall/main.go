@@ -5,8 +5,9 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
-	"project-go/avancado/json_unmarshall/model"
 	"time"
+
+	"github.com/vinipis/aulas-jeff-go/avancado/json_unmarshall/model"
 )
 
 func main() {

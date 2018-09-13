@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	arquivo, err := os.Open("/home/carlos/go/src/intermediario/ler_arquivos/cidades.csv")
+	arquivo, err := os.Open(os.Getenv("HOME") + "/go/src/github.com/vinipis/aulas-jeff-go/intermediario/ler_arquivos/cidades.csv")
 	if err != nil {
 		fmt.Println("[main] Houve um erro ao abrir o arquivo. Erro", err.Error())
 		return
